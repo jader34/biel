@@ -1,20 +1,24 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 🗡️ Ficha de Brehem — Patrulheiro Gloom Stalker
 
-# Run and deploy your AI Studio app
+Ficha de personagem interativa otimizada para smartphone para **Brehem**, Patrulheiro de Nível 4 do Conclave do Rastreador Subterrâneo (D&D 5e).
 
-This contains everything you need to run your app locally.
+## 🌐 Acessar Online
 
-View your app in AI Studio: https://ai.studio/apps/2c34008e-a143-4e13-b9bd-8957a3a9e850
+**[→ Abrir Ficha](https://jader34.github.io/biel/)**
 
-## Run Locally
+## 🛠️ Rodar Localmente
 
-**Prerequisites:**  Node.js
+**Pré-requisitos:** Node.js 20+
 
+```bash
+npm install
+npm run dev
+```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 📦 Build para Produção
+
+```bash
+npm run build
+```
+
+Os arquivos serão gerados na pasta `dist/`.

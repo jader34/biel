@@ -2,19 +2,8 @@
   "short_name": "Brehem Ficha",
   "name": "Ficha de Brehem - Gloom Stalker",
   "description": "Ficha de RPG interativa para o Ranger Brehem (Patrulheiro do Subterrâneo)",
-  "icons": [
-    {
-      "src": "placeholder-icon.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "placeholder-icon.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    }
-  ],
-  "start_url": "/",
+  "icons": [],
+  "start_url": "/biel/",
   "background_color": "#09090b",
   "theme_color": "#09090b",
   "display": "standalone",
