@@ -24,6 +24,16 @@
   body {
     font-family: var(--font-sans);
     background-color: var(--color-gloom-deep);
+    /* Prevent pull-to-refresh and overscroll on mobile */
+    overscroll-behavior: none;
+  }
+
+  /* Fallback for mobile browsers that don't fully support dvh */
+  @supports not (height: 100dvh) {
+    .h-dvh {
+      height: 100vh;
+      height: -webkit-fill-available;
+    }
   }
 }
 

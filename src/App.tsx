@@ -404,7 +404,7 @@ export default function App() {
       )}
 
       {/* FULL RESPONSIVE CONTAINER WITH DESKTOP CONSOLE FRAMEWORK */}
-      <div className="w-full max-w-md bg-gloom-obsidian border-x border-gloom-border h-screen flex flex-col relative shadow-2xl overflow-hidden">
+      <div className="w-full max-w-md bg-gloom-obsidian border-x border-gloom-border h-dvh flex flex-col relative shadow-2xl overflow-hidden">
         
         {/* --- STICKY HEADER PART --- */}
         <header id="sticky-header" className="sticky top-0 z-40 bg-gloom-obsidian/95 backdrop-blur-md border-b border-gloom-border pt-3 px-4 pb-3 shadow-md">
