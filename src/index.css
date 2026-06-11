@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cinzel", serif;
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  /* Custom Gloom Stalker Theme Colors */
+  --color-gloom-deep: #050507;
+  --color-gloom-obsidian: #0c0c0e;
+  --color-gloom-panel: #131317;
+  --color-gloom-border: #23222a;
+  
+  --color-gloom-violet: #a78bfa;
+  --color-gloom-violet-bright: #c084fc;
+  --color-gloom-violet-glow: #7c3aed;
+  
+  --color-gloom-green: #65a30d;
+  --color-gloom-green-dark: #3f6212;
+}
+
+/* Custom CSS overrides for interactive elements and scrollbar styling */
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--color-gloom-deep);
+  }
+}
+
+/* Custom scrollbars and glow utility classes */
+.shadow-neon {
+  box-shadow: 0 0 12px rgba(124, 58, 237, 0.25);
+}
+
+.shadow-neon-active {
+  box-shadow: 0 0 16px rgba(124, 58, 237, 0.45);
+}
+
+.border-glow {
+  border-color: rgba(124, 58, 237, 0.3);
+}
+
+.border-glow:focus-within {
+  border-color: rgba(124, 58, 237, 0.8);
+}
+

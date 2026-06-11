@@ -1,0 +1,6 @@
+{
+  "name": "Ficha de Brehem",
+  "description": "Ficha de personagem interativa otimizada para smartphone para Brehem, Patrulheiro de Nível 4 do Conclave do Rastreador Subterrâneo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
